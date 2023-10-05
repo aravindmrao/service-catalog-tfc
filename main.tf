@@ -29,7 +29,6 @@ provider "aws" {
 
 provider "tfe" {
   hostname = var.tfc_hostname
-  token = var.token
 }
 
 # This module provisions the Terraform Cloud Reference Engine. If you would like to provision the Reference Engine
